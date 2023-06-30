@@ -1,38 +1,38 @@
 #a simple calculateor:
- def addition(number_1, number_2):
-     return(number_1 + number_2)
- def subtraction(number_1, number_2):
-     return(number_1-number_1)
- def multiplication(number_1, number_2):
-     return(number_1 * number_2)
- def division(number_1, number_2):
-     if number_2 ==0:
-         return False
-     else:
-         return(number_1/number_2)
+def addition(number_1, number_2):
+    return(number_1 + number_2)
+def subtraction(number_1, number_2):
+    return(number_1-number_1)
+def multiplication(number_1, number_2):
+    return(number_1 * number_2)
+def division(number_1, number_2):
+    if number_2 ==0:
+        return False
+    else:
+        return(number_1/number_2)
  #main program:
- while True:
-     print("choose an option:")
-     print("1= addition.")
-     print("2 = subtraction.")
-     print("3 = multiplication.")
-     print("4 = division.")
-     print("5= exit from calculator.")
-     choice= int(input("enter the number of operation you want to use:"))
-     if choice == 5:
-         print("exit")
-         break
-     number_1 = float(input("enter the number 1:"))
-     number_2 = float(input("enter the number 2:"))
-     if choice == 1:
-         x=addition(number_1, number_2)
-         print(x)
-     elif choice==2:
-         y=subtraction(number_1, number_2)
-         print(y)
-     elif choice==3:
-         z=multiplication(number_1, number_2)
-         print(z)
-     elif choice ==4:
-         w=division(number_1, number_2)
-         print(w)
+while True:
+    print("choose an option:")
+    print("1= addition.")
+    print("2 = subtraction.")
+    print("3 = multiplication.")
+    print("4 = division.")
+    print("5= exit from calculator.")
+    choice= int(input("enter the number of operation you want to use:"))
+    if choice == 5:
+        print("exit")
+        break
+    number_1 = float(input("enter the number 1:"))
+    number_2 = float(input("enter the number 2:"))
+    if choice == 1:
+        x=addition(number_1, number_2)
+        print(x)
+    elif choice==2:
+        y=subtraction(number_1, number_2)
+        print(y)
+    elif choice==3:
+        z=multiplication(number_1, number_2)
+        print(z)
+    elif choice ==4:
+        w=division(number_1, number_2)
+        print(w)
